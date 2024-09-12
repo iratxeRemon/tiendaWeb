@@ -1,0 +1,52 @@
+.formulario {
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos se alineen en columnas */
+    width: 300px; /* Ajusta el ancho del formulario */
+    margin: 0 auto; /* Centrar el formulario horizontalmente */
+  }
+  
+  .formulario label {
+    margin-top: 10px;
+  }
+  
+  .formulario input {
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 100%; /* Hace que los inputs ocupen todo el ancho disponible */
+    box-sizing: border-box; /* Para que el padding no afecte el ancho total */
+  }
+  
+  .formulario button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50; /* Color del botón */
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%; /* Botones del ancho del formulario */
+  }
+  
+  .formulario button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Estilo adicional para checkbox */
+  .formulario label input[type="checkbox"] {
+    margin-right: 5px; /* Un pequeño margen a la derecha del checkbox */
+  }
+  
+  /* Estilo para la sección del fondo y el botón de cierre (X) */
+  .fondo {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .fondo button {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,27 @@
+.menu {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;  /* Mantiene el botón a la derecha */
+    align-items: center;             /* Alinea verticalmente al centro */
+    position: relative;
+}
+  
+.menu p {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Para centrar el título */
+}
+
+.menu button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 7px;
+    margin-left: auto;
+}
+  

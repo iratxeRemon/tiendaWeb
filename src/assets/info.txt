@@ -1,0 +1,1 @@
+https://dev.to/abdnadeem382/importing-and-interacting-with-a-3d-model-in-react-with-react-three-fiber-2fni
